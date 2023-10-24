@@ -67,7 +67,7 @@ GET /client/cascade/home/pageHomePieces
 ![img.png](img.png)
 
 
-## 2、iece detail
+## 2、Piece detail
 #### Endpoint
 GET /client/cascade/home/pieceInfo
 
