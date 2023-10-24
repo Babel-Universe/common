@@ -1,6 +1,4 @@
 # Note
-baseUrl：https://apiv2.cascad3.com/cascad3-client
-
 Before calling the Endpoint, you need to create a cascade（https://www.cascad3.com/） and get the cascadeId, and set it in the request header
 
 Cascadeinfo：{"cascadeId":"cascadeIdValue"}
@@ -9,7 +7,7 @@ like this：
 
 ![img_1.png](img_1.png)
 
-
+## baseUrl：https://apiv2.cascad3.com/cascad3-client
 
 ## 1、Pagination data of pieces
 #### Endpoint 
