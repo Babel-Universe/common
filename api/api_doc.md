@@ -24,7 +24,7 @@ GET /client/cascade/home/pageHomePieces
 | pageSize  |  integer | no    | Number of records displayed per page    |
 | sortBy    | integer | no    | Sort type: 0: Created time descending (default), 1: Number of likes,2: Number of comments,3: Number of reads,4: Number of downStreams,5: Amount of rewards |
 
-Response：
+### Response：
 ```json
 {
     "data": {
@@ -76,7 +76,7 @@ GET /client/cascade/home/pieceInfo
 |-----------|---------|------|-----------|
 |pieceUuid|string| yes |pieceUuid|
 
-Response：
+### Response：
 ```json
 {
   "data": {
