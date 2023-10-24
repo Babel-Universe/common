@@ -11,7 +11,7 @@ like this：
 
 
 
-## Pagination data of pieces
+## 1、Pagination data of pieces
 #### Endpoint 
 GET /client/cascade/home/pageHomePieces
 
@@ -67,7 +67,7 @@ Response：
 ![img.png](img.png)
 
 
-## piece  detail
+## 2、iece detail
 #### Endpoint
 GET /client/cascade/home/pieceInfo
 
