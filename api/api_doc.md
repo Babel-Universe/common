@@ -125,3 +125,74 @@ GET /client/cascade/home/pieceInfo
 }
 
 ```
+
+## 3、tag列表
+#### Endpoint
+GET /client/cascade/home/tags
+
+### Response：
+```json
+{
+	"data": [
+		{
+			"id": 0,
+			"tag": "",
+			"tagColor": ""
+		}
+	],
+	"msg": "",
+	"status": 0
+}
+```
+## 4、置顶（TOP）文章
+#### Endpoint
+GET /client/cascade/home/cascadeFeatureList
+### Response：
+```json
+{
+  "data": [
+    {
+      "arId": "",
+      "authorFaceUrl": "",
+      "authorUsername": "",
+      "coverUrl": "",
+      "createBy": 0,
+      "createByAddress": "",
+      "createTime": "",
+      "downstreamCount": 0,
+      "featured": true,
+      "id": 0,
+      "subTitle": "",
+      "tagInfos": [
+        {
+          "id": 0,
+          "tag": "",
+          "tagColor": ""
+        }
+      ],
+      "title": "",
+      "uuid": ""
+    }
+  ],
+  "msg": "",
+  "status": 0
+}
+```
+
+## 补充说明
+
+针对这些需求的说明：categories、tag、作者、类似文章、最新文章、置顶（TOP）文章、搜索功能、语言切换
+
+categories，类似文章和语言切换，我们当前没有这个功能
+
+tag：列表见3号接口
+
+作者：在详情里面有体现
+
+最新文章：1号接口默认是按照时间倒序的（sortBy）
+
+置顶（TOP）文章：见4号接口
+
+搜索功能：1号接口有一个入参：keyword，针对标题进行模糊搜索
+
+
