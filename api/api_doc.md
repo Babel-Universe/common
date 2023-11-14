@@ -15,12 +15,13 @@ GET /client/cascade/home/pageHomePieces
 
 ### Request parameters
 
-| name      |  type    | Required | Description                                                                                                                                                |
-|-----------|---------|------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| keyword   |  string  | no   | search keyword                                                                                                                                             |
-| pageIndex |  integer | no    | Current page number                                                                                                                                        |
-| pageSize  |  integer | no    | Number of records displayed per page                                                                                                                       |
-| tagId    |  integer | no    | tag id                                                                                                                                                     |
+| name      |  type    | Required | Description                          |
+|-----------|---------|------|--------------------------------------|
+| keyword   |  string  | no   | search keyword                       |
+| pageIndex |  integer | no    | Current page number                  |
+| pageSize  |  integer | no    | Number of records displayed per page |
+| tagId     |  integer | no    | tag id                               |
+| createBy  |  integer | no    | 作者Id                                 |
 | sortBy    | integer | no    | Sort type: 0: Created time descending (default), 1: Number of likes,2: Number of comments,3: Number of reads,4: Number of downStreams,5: Amount of rewards |
 
 ### Response：
